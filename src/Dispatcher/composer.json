@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Esthete\\Cookie\\": "src/"
+      "Esthete\\Dispatcher\\": "src/"
     }
   },
   "config": {
