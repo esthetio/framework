@@ -1,0 +1,27 @@
+{
+  "name": "esthete/dispatcher",
+  "description": "Esthete HTTP Dispatcher component",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergei Aleinik",
+      "email": "kerbi.jam@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "symfony/http-foundation": "^6.0",
+    "symfony/serializer": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Esthete\\Cookie\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

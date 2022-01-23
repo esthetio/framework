@@ -1,0 +1,57 @@
+{
+  "name": "esthete/framework",
+  "description": "The Esthete PHP framework",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergei Aleinik",
+      "email": "kerbi.jam@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "symfony/http-foundation": "^6.0",
+    "symfony/serializer": "^6.0",
+    "psr/container": "^1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "phpstan/phpstan": "^1.2",
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.5"
+  },
+  "replace": {
+    "esthete/config": "self.version",
+    "esthete/cookie": "self.version",
+    "esthete/dispatcher": "self.version",
+    "esthete/http": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "Esthete\\Config\\": "src/Config/src",
+      "Esthete\\Cookie\\": "src/Cookie/src",
+      "Esthete\\Dispatcher\\": "src/Dispatcher/src",
+      "Esthete\\Http\\": "src/Http/src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Esthete\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "check-cs": [
+      "phpcs --standard=PSR12 src",
+      "phpstan analyse src --level=8"
+    ],
+    "run-tests": [
+      "phpunit"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
