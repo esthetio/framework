@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Tests\Http\Middleware;
+namespace Esthetio\Tests\Http\Middleware;
 
-use Esthete\Http\Middleware\MiddlewareInterface;
-use Esthete\Http\Middleware\Runner;
+use Esthetio\Http\Middleware\MiddlewareInterface;
+use Esthetio\Http\Middleware\Runner;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 

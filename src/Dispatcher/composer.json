@@ -1,6 +1,6 @@
 {
-  "name": "esthete/dispatcher",
-  "description": "Esthete HTTP Dispatcher component",
+  "name": "esthetio/dispatcher",
+  "description": "Esthetio Framework HTTP Dispatcher component",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Esthete\\Dispatcher\\": "src/"
+      "Esthetio\\Dispatcher\\": "src/"
     }
   },
   "config": {

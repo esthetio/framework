@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher;
+namespace Esthetio\Dispatcher;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -10,19 +10,19 @@ use Throwable;
 
 class DispatcherImpl implements Dispatcher
 {
-    /** @var \Esthete\Dispatcher\ControllerFactoryInterface */
+    /** @var \Esthetio\Dispatcher\ControllerFactoryInterface */
     private ControllerFactoryInterface $controllerFactory;
 
-    /** @var \Esthete\Dispatcher\ResponseFactoryInterface */
+    /** @var \Esthetio\Dispatcher\ResponseFactoryInterface */
     private ResponseFactoryInterface $responseFactory;
 
-    /** @var \Esthete\Dispatcher\InvokerInterface */
+    /** @var \Esthetio\Dispatcher\InvokerInterface */
     private InvokerInterface $invoker;
 
     /**
-     * @param  \Esthete\Dispatcher\ControllerFactoryInterface  $controllerFactory
-     * @param  \Esthete\Dispatcher\ResponseFactoryInterface    $responseFactory
-     * @param  \Esthete\Dispatcher\InvokerInterface            $invoker
+     * @param  \Esthetio\Dispatcher\ControllerFactoryInterface  $controllerFactory
+     * @param  \Esthetio\Dispatcher\ResponseFactoryInterface    $responseFactory
+     * @param  \Esthetio\Dispatcher\InvokerInterface            $invoker
      */
     public function __construct(
         ControllerFactoryInterface $controllerFactory,

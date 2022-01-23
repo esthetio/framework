@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher\Attribute;
+namespace Esthetio\Dispatcher\Attribute;
 
 use Attribute;
 

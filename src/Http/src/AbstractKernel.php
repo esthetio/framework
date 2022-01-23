@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Http;
+namespace Esthetio\Http;
 
-use Esthete\Http\Middleware\Runner;
-use Esthete\Http\Middleware\TerminableInterface;
+use Esthetio\Http\Middleware\Runner;
+use Esthetio\Http\Middleware\TerminableInterface;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 abstract class AbstractKernel implements KernelInterface
 {
-    /** @var \Esthete\Http\Middleware\MiddlewareInterface[] */
+    /** @var \Esthetio\Http\Middleware\MiddlewareInterface[] */
     private array $pipeline;
 
     /**
-     * @return \Esthete\Http\Middleware\MiddlewareInterface[]
+     * @return \Esthetio\Http\Middleware\MiddlewareInterface[]
      */
     abstract protected function getPipeline(ContainerInterface $container): array;
 

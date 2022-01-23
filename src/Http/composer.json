@@ -1,6 +1,6 @@
 {
-  "name": "esthete/http",
-  "description": "Esthete HTTP component",
+  "name": "esthetio/http",
+  "description": "Esthetio Framework HTTP Kernel component",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Esthete\\Http\\": "src/"
+      "Esthetio\\Http\\": "src/"
     }
   },
   "config": {

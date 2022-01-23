@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Config;
+namespace Esthetio\Config;
 
 class ConfigImpl implements Config
 {

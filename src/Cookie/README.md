@@ -1,1 +1,1 @@
-# Esthete Framework: Cookie component
+# Esthetio Framework: Cookie component

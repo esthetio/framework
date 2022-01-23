@@ -1,1 +1,1 @@
-# Esthete Framework: Config component
+# Esthetio Framework: Config component

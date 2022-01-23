@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher;
+namespace Esthetio\Dispatcher;
 
 use Symfony\Component\HttpFoundation\Request;
 

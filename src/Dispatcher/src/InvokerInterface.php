@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher;
+namespace Esthetio\Dispatcher;
 
 use Throwable;
 
 interface InvokerInterface
 {
     /**
-     * @param  \Esthete\Dispatcher\Context  $context
+     * @param  \Esthetio\Dispatcher\Context  $context
      * @param  object                       $invokable
      * @param  string                       $method
      *
@@ -18,7 +18,7 @@ interface InvokerInterface
     public function invokeMethod(Context $context, object $invokable, string $method): mixed;
 
     /**
-     * @param  \Esthete\Dispatcher\Context  $context
+     * @param  \Esthetio\Dispatcher\Context  $context
      * @param  object                       $invokable
      * @param  \Throwable                   $e
      *

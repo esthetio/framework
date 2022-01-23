@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Http\Middleware;
+namespace Esthetio\Http\Middleware;
 
 interface StackInterface
 {
     /**
-     * @return \Esthete\Http\Middleware\MiddlewareInterface
+     * @return \Esthetio\Http\Middleware\MiddlewareInterface
      */
     public function next(): MiddlewareInterface;
 }

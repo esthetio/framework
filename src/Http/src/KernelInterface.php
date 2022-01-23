@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Http;
+namespace Esthetio\Http;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

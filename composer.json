@@ -1,6 +1,6 @@
 {
-  "name": "esthete/framework",
-  "description": "The Esthete PHP framework",
+  "name": "esthetio/framework",
+  "description": "PHP Framework based mainly on Symfony packages for modern application development",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -22,22 +22,22 @@
     "phpunit/phpunit": "^9.5"
   },
   "replace": {
-    "esthete/config": "self.version",
-    "esthete/cookie": "self.version",
-    "esthete/dispatcher": "self.version",
-    "esthete/http": "self.version"
+    "esthetio/config": "self.version",
+    "esthetio/cookie": "self.version",
+    "esthetio/dispatcher": "self.version",
+    "esthetio/http": "self.version"
   },
   "autoload": {
     "psr-4": {
-      "Esthete\\Config\\": "src/Config/src",
-      "Esthete\\Cookie\\": "src/Cookie/src",
-      "Esthete\\Dispatcher\\": "src/Dispatcher/src",
-      "Esthete\\Http\\": "src/Http/src"
+      "Esthetio\\Config\\": "src/Config/src",
+      "Esthetio\\Cookie\\": "src/Cookie/src",
+      "Esthetio\\Dispatcher\\": "src/Dispatcher/src",
+      "Esthetio\\Http\\": "src/Http/src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Esthete\\Tests\\": "tests/"
+      "Esthetio\\Tests\\": "tests/"
     }
   },
   "scripts": {

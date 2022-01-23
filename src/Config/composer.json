@@ -1,6 +1,6 @@
 {
-  "name": "esthete/config",
-  "description": "Esthete Config component",
+  "name": "esthetio/config",
+  "description": "Esthetio Framework Config component",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Esthete\\Config\\": "src/"
+      "Esthetio\\Config\\": "src/"
     }
   },
   "config": {

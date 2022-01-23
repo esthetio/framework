@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Cookie;
+namespace Esthetio\Cookie;
 
 use Symfony\Component\HttpFoundation\Cookie;
 

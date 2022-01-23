@@ -1,1 +1,1 @@
-# Esthete Framework: HTTP Dispatcher component
+# Esthetio Framework: HTTP Dispatcher component

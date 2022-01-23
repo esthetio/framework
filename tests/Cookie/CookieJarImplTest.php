@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Tests\Cookie;
+namespace Esthetio\Tests\Cookie;
 
-use Esthete\Cookie\CookieJarImpl;
+use Esthetio\Cookie\CookieJarImpl;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Cookie;
 

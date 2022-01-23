@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher;
+namespace Esthetio\Dispatcher;
 
 use InvalidArgumentException;
 use ReflectionNamedType;
@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class ArgumentResolver implements ArgumentResolverInterface
 {
-    /** @var \Esthete\Dispatcher\AttributeHandlerInterface[] */
+    /** @var \Esthetio\Dispatcher\AttributeHandlerInterface[] */
     private array $handlers;
 
     public function __construct()
@@ -21,7 +21,7 @@ class ArgumentResolver implements ArgumentResolverInterface
 
     /**
      * @param  string                                         $attribute
-     * @param  \Esthete\Dispatcher\AttributeHandlerInterface  $handler
+     * @param  \Esthetio\Dispatcher\AttributeHandlerInterface  $handler
      */
     public function addHandler(string $attribute, AttributeHandlerInterface $handler): void
     {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher;
+namespace Esthetio\Dispatcher;
 
 use ReflectionParameter;
 
 interface ArgumentResolverInterface
 {
     /**
-     * @param  \Esthete\Dispatcher\Context  $context
+     * @param  \Esthetio\Dispatcher\Context  $context
      * @param  \ReflectionParameter         $parameter
      *
      * @return mixed

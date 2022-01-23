@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Http\Middleware;
+namespace Esthetio\Http\Middleware;
 
 use SplQueue;
 use Symfony\Component\HttpFoundation\Request;
@@ -17,7 +17,7 @@ final class Runner implements MiddlewareInterface, StackInterface
     private SplQueue $queue;
 
     /**
-     * @param  \Esthete\Http\Middleware\MiddlewareInterface[]  $pipeline
+     * @param  \Esthetio\Http\Middleware\MiddlewareInterface[]  $pipeline
      */
     public function __construct(array $pipeline)
     {
@@ -39,7 +39,7 @@ final class Runner implements MiddlewareInterface, StackInterface
     }
 
     /**
-     * @param  \Esthete\Http\Middleware\MiddlewareInterface[]  $pipeline
+     * @param  \Esthetio\Http\Middleware\MiddlewareInterface[]  $pipeline
      *
      * @return \SplQueue
      */

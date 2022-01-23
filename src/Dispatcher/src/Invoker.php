@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher;
+namespace Esthetio\Dispatcher;
 
-use Esthete\Dispatcher\Attribute\ExceptionHandler;
+use Esthetio\Dispatcher\Attribute\ExceptionHandler;
 use ReflectionClass;
 use ReflectionMethod;
 use Throwable;
 
 class Invoker implements InvokerInterface
 {
-    /** @var \Esthete\Dispatcher\ArgumentResolverInterface */
+    /** @var \Esthetio\Dispatcher\ArgumentResolverInterface */
     private ArgumentResolverInterface $argumentResolver;
 
     /**
-     * @param  \Esthete\Dispatcher\ArgumentResolverInterface  $argumentResolver
+     * @param  \Esthetio\Dispatcher\ArgumentResolverInterface  $argumentResolver
      */
     public function __construct(ArgumentResolverInterface $argumentResolver)
     {
@@ -79,7 +79,7 @@ class Invoker implements InvokerInterface
      * @param  object  $invokable
      * @param  string  $method
      *
-     * @return \Esthete\Dispatcher\Reflector
+     * @return \Esthetio\Dispatcher\Reflector
      * @throws \ReflectionException
      */
     private function getReflector(object $invokable, string $method): Reflector

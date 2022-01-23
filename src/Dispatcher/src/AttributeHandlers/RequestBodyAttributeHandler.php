@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Dispatcher\AttributeHandlers;
+namespace Esthetio\Dispatcher\AttributeHandlers;
 
-use Esthete\Dispatcher\Attribute\RequestBody;
-use Esthete\Dispatcher\AttributeHandlerInterface;
-use Esthete\Dispatcher\Context;
-use Esthete\Dispatcher\InvalidAttributeException;
+use Esthetio\Dispatcher\Attribute\RequestBody;
+use Esthetio\Dispatcher\AttributeHandlerInterface;
+use Esthetio\Dispatcher\Context;
+use Esthetio\Dispatcher\InvalidAttributeException;
 use InvalidArgumentException;
 use ReflectionNamedType;
 use ReflectionParameter;

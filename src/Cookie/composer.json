@@ -1,6 +1,6 @@
 {
-  "name": "esthete/cookie",
-  "description": "Esthete Cookie component",
+  "name": "esthetio/cookie",
+  "description": "Esthetio Framework Cookie component",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Esthete\\Cookie\\": "src/"
+      "Esthetio\\Cookie\\": "src/"
     }
   },
   "config": {

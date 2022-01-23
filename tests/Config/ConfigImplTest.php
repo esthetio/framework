@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Tests\Config;
+namespace Esthetio\Tests\Config;
 
-use Esthete\Config\ConfigImpl;
+use Esthetio\Config\ConfigImpl;
 use PHPUnit\Framework\TestCase;
 
 class ConfigImplTest extends TestCase

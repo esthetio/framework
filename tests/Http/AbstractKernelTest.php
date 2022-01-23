@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Esthete\Tests\Http;
+namespace Esthetio\Tests\Http;
 
-use Esthete\Http\AbstractKernel;
-use Esthete\Http\Middleware\MiddlewareInterface;
-use Esthete\Http\Middleware\TerminableInterface;
+use Esthetio\Http\AbstractKernel;
+use Esthetio\Http\Middleware\MiddlewareInterface;
+use Esthetio\Http\Middleware\TerminableInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
