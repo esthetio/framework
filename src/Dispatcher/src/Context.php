@@ -6,7 +6,10 @@ namespace Esthetio\Dispatcher;
 
 use Symfony\Component\HttpFoundation\Request;
 
-class Context
+/**
+ * @internal
+ */
+final class Context
 {
     /** @var \Symfony\Component\HttpFoundation\Request */
     private Request $request;
