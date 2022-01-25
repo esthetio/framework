@@ -7,7 +7,7 @@ namespace Esthetio\Dispatcher\AttributeHandlers;
 use Esthetio\Dispatcher\Attribute\CookieValue;
 use Esthetio\Dispatcher\AttributeHandlerInterface;
 use Esthetio\Dispatcher\Context;
-use Esthetio\Dispatcher\InvalidAttributeException;
+use Esthetio\Dispatcher\Exception\InvalidAttributeException;
 use ReflectionParameter;
 
 class CookieValueAttributeHandler implements AttributeHandlerInterface

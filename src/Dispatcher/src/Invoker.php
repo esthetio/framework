@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Esthetio\Dispatcher;
 
 use Esthetio\Dispatcher\Attribute\ExceptionHandler;
+use Esthetio\Dispatcher\Exception\InvalidAttributeException;
 use ReflectionClass;
 use ReflectionMethod;
 use Throwable;
@@ -80,7 +81,6 @@ class Invoker implements InvokerInterface
      * @param  string  $method
      *
      * @return \Esthetio\Dispatcher\Reflector
-     * @throws \ReflectionException
      */
     private function getReflector(object $invokable, string $method): Reflector
     {

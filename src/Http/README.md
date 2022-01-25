@@ -1,1 +1,1 @@
-# Esthetio Framework: HTTP Kernel component
+# Esthetio Framework: HTTP Kernel

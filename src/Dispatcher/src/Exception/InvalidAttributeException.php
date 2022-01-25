@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Esthetio\Dispatcher;
+namespace Esthetio\Dispatcher\Exception;
 
 use InvalidArgumentException;
 
